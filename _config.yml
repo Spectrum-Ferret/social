@@ -2,3 +2,4 @@
 title: Spectrum Ferret Radio Reports
 theme: minima
 permalink: /report-:basename.html
+baseurl: /social
