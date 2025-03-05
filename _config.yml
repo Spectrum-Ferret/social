@@ -1,4 +1,4 @@
 # Jekyll config
 title: Spectrum Ferret Radio Reports
 theme: minima
-permalink: /:name.html
+permalink: /report-:basename.html
