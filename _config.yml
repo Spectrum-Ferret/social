@@ -1,5 +1,6 @@
 # Jekyll config
 title: Spectrum Ferret Radio Reports
 theme: minima
-baseurl: "/social"
+baseurl: "/social"  # Crucial—tells Jekyll our site is in a subdir
+url: "https://spectrum-ferret.github.io"
 permalink: /:year/:month/:day/:title.html
