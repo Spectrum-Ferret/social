@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<h1>My Blog Posts</h1>
+<h1><a href="https://spectrumferret.com/">Spectrum Ferret</a> Radio Summary Reports</h1>
 <ul>
     {% for post in site.posts %}
-        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
